@@ -4,12 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: document
   path: Books/Reading
   label: Reading Now
-  match: "**/*"
-- type: heading
-  label: Content
 - type: jekyll-posts
   label: Posts
   create: all
